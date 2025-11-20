@@ -33,7 +33,7 @@ if (!is_admin()) {
         <li class="nav-item"><a class="nav-link" href="pagos.php">Pagos</a></li>
         <li class="nav-item"><a class="nav-link" href="certificados.php">Certificados</a></li>
       </ul>
-      <span class="navbar-text text-light me-3"><?php echo $_SESSION['nombre']; ?></span>
+      <span class="navbar-text text-light me-3"><?php echo htmlspecialchars($_SESSION['nombre'] ?? ''); ?></span>
       <a class="btn btn-outline-primary btn-sm" href="../logout.php">Salir</a>
     </div>
   </div>
