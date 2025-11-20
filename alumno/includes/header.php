@@ -27,6 +27,7 @@ if (!is_alumno() && !is_admin()) {
         <li class="nav-item"><a class="nav-link" href="aula.php">Aula</a></li>
         <li class="nav-item"><a class="nav-link" href="evaluacion.php">Evaluación</a></li>
         <li class="nav-item"><a class="nav-link" href="certificados.php">Mis certificados</a></li>
+        <li class="nav-item"><a class="nav-link" href="chatbot.php">Chatbot</a></li>
         <li class="nav-item"><a class="nav-link" href="perfil.php">Perfil</a></li>
       </ul>
       <span class="navbar-text text-light me-3"><?php echo $_SESSION['nombre']; ?></span>
