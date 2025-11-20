@@ -30,7 +30,7 @@ if (!is_alumno() && !is_admin()) {
         <li class="nav-item"><a class="nav-link" href="chatbot.php">Chatbot</a></li>
         <li class="nav-item"><a class="nav-link" href="perfil.php">Perfil</a></li>
       </ul>
-      <span class="navbar-text text-light me-3"><?php echo $_SESSION['nombre']; ?></span>
+      <span class="navbar-text text-light me-3"><?php echo htmlspecialchars($_SESSION['nombre'] ?? ''); ?></span>
       <a class="btn btn-outline-light btn-sm" href="../logout.php">Salir</a>
     </div>
   </div>
