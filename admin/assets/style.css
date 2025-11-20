@@ -1,0 +1,11 @@
+:root{
+  --slate:#111827;
+  --slate-2:#0b1220;
+  --slate-3:#1f2937;
+}
+body.bg-slate{ background: var(--slate-3); color:#e5e7eb; }
+.card{ border-radius:1rem; background:#111827; border:1px solid #374151; }
+.table{ --bs-table-bg: #0b1220; --bs-table-color: #e5e7eb; }
+.table-striped>tbody>tr:nth-of-type(odd){ --bs-table-accent-bg:#111827; color:#e5e7eb; }
+.navbar .nav-link{ color:#cbd5e1; }
+.navbar .nav-link:hover{ color:#ffffff; }
